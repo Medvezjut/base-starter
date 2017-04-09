@@ -1,0 +1,14 @@
+{
+  "name": "base-starter",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "repository": "git@github.com:Medvezjut/base-starter.git",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "2.3.3"
+  },
+  "engines": {
+    "node": ">=4.0"
+  }
+}

@@ -1,0 +1,228 @@
+
+
+body {
+    background: url('../img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    font-family: 'Open Sans', Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+
+.continer{
+	max-width: 960px;
+	min-width: 320px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+
+	/*border: 1px solid green;/* ---------------------------- */
+}
+
+
+/* Header */
+header{
+	background-color: #FFFFFF;
+	
+	border-bottom: 3px solid #FF4F2C;
+	margin-bottom: 20px;
+}
+
+
+#logo{
+	font-weight: 100;
+	font-size: 3em;
+	
+	text-transform: uppercase;
+
+	
+}
+
+
+#phone{
+	padding-top: 10px;
+	font-size: 1.3em;
+	text-align: right;
+	
+	white-space: nowrap;
+	line-height: 1.0em;
+
+	background-color: #FFFFFF;
+}
+
+#phone a{
+	color: #FF4F2C;
+	font-size: 0.7em;
+}
+
+#phone a:hover{
+	color: #570A06;
+}
+
+.upper_earphone{
+	font-size: 0.7em;
+	color: #FF4F2C;
+}
+
+/* Standart Section*/ 
+
+section{
+	border-top: 1px solid #FF4F2C;
+	text-align: justify;
+	/*background-color: #FFFFFF;/**/
+}
+
+section h1{
+	font-size: 2em;
+	text-align: center;
+}
+
+section .point{
+	
+	padding: 0px 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 260px;
+	/*border: 1px solid red;/**/
+	/*padding-bottom: 20px;/**/
+
+	/*background-color: #FFFFFF;/**/
+	
+}
+
+section .point img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.point_continer{
+	margin: 0 auto;
+}
+
+.light_grey{
+	background-color: #EEEEEE;
+}
+
+
+/* Contacts */
+#Coordinats{
+	padding-bottom: 20px;
+}
+
+#Contacts{
+	text-align: center;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+
+#Contacts .glyp_style{
+	color: #FF4F2C;
+	font-size: 0.7em;
+}
+
+#ContuctUsBTN{
+	color: #912D19;
+	background-color: #FF4F2C;
+	border-radius: 7px;
+	font-size: 1.2em;
+}
+
+#Map {
+	border: 1px solid #222222;
+	margin: 0 auto;
+	width: 602px;
+}
+
+
+/* Footer */
+
+footer{
+	margin-top: 20px;
+	background-color: #666666;
+	height: 50px;
+}
+
+footer .continer{
+	background-color: #666666;
+	
+}
+
+footer span{
+	display: block;
+	padding-top: 15px;
+	font-size: 1.1em;
+}
+
+footer .left{
+	padding-left: 15px;
+	text-align: left;
+}
+
+footer .right{
+	padding-right: 15px;
+	text-align: right;
+	background-color: #666666;
+}
+
+.lower_earphone{
+	font-size: 0.7em;
+	
+}
+
+/* КАРУСЕЛЬ */
+
+#Carousel_Zone{
+	margin-bottom: 20px;/**/
+	border: none;
+}
+
+#Carousel_Zone h3{
+	color: #FF4F2C; /**/
+	font-size: 1.7em;
+	display: inline-block;
+	background-image: url('../img/bg_small.png');
+	padding: 10px;
+}
+
+.tooltip-inner{
+	white-space: pre;
+}
+
+/* Модальное окно */
+
+#submit{
+	color: #912D19;
+	background-color: #FF4F2C;
+	border-radius: 7px;
+	font-size: 1.2em;
+}
+
+.BtnForm{
+	text-align: center;
+}
+
+input, textarea{
+	border: 1px solid #FF4F2C;
+	color: #FF4F2C;
+}
+
+#ModalText{
+	text-align: center;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.message{
+	margin-top: 30px;
+	padding: 20px;
+}
+
+.out_message_BTN{
+	margin-top: 20px;
+	text-align: center;
+}
